@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> AluraGeek</title>
+</head>
+<body>
+    <section class="menu">
+        <header class="menu__header">
+            <a href="index.html"><img src="./assets/Vector.png" alt="" class=""></a>
+            <a href="index.html"><img src="./assets/Alura.png" alt="" class=""></a>
+            <a href="index.html"><img src="./assets/Geek.png" alt="" class=""></a>
+            <img  class="find" src="./assets/icono__buscar.png" alt="">
+            <input type="text" class="input__header" placeholder="¿Qué deseas buscar?">
+        </header>
+    </section>
+    
+    <section class="login">
+        <div class="login__user">
+            <p class="login__user__title">Iniciar Sesión</p>
+            <div class="input-container">
+                <input id="input" type="email" class="login__user__email" placeholder="Escriba su correo electrónico" required>
+                <span class="input-message-error">Este campo no puede estar vacío</span>
+            </div>
+            <div class="input-container">
+                <input id="input" type="password" class="login__user__password" placeholder="Escriba su contraseña" required>
+                <span class="input-message-error">Este campo no puede estar vacío</span>
+            </div>
+            <button id="btnEnter" type="submit" class="login__user__boton" style="cursor:pointer">Entrar</button>
+        </div>
+    </section>
+
+    <footer class="data__company">
+        <div class="foot">
+            <div class="foot__logo">
+                <img src="./assets/Vector.png" alt="" class="">
+                <img src="./assets/Alura.png" alt="" class="">
+                <img src="./assets/Geek.png" alt="" class="">
+            </div>
+            <div class="foot__box">
+                <ul class="foot__box__list">
+                    <li class="foot__box__item">Quienes Somos</li>
+                    <li class="foot__box__item">Politica de Privacidad</li>
+                    <li class="foot__box__item">Programa de fidelidad</li>
+                    <li class="foot__box__item">Nuestras tiendas</li>
+                    <li class="foot__box__item">Quiero ser franquiciado</li>
+                    <li class="foot__box__item">Anuncie aquí</li>
+                </ul>
+            </div>
+            <form class="foot__form">
+                <p class="foot__form__title">Hable con nosotros</p>
+                <div class="input-container">
+                    <input id="input" type="text" class="foot__form__name" placeholder="Nombre" required maxlength="40">
+                    <span class="input-message-error">Este campo no puede estar vacío</span>
+                </div>
+                <div class="input-container">
+                    <input id="input" type="text" class="foot__form__message" placeholder="Escribe tu mensaje" required maxlength="120">
+                    <span class="input-message-error">Este campo no puede estar vacío</span>
+                </div>
+                <button type="submit" class="foot__form__boton" style="cursor:pointer">Enviar mensaje</button>
+            </form>
+        </div>
+        <div class="rodapie">
+            <p>Desarrolado por César Sánchez - 2022</p>
+        </div>
+    </footer>
+    <script src="./js/validaciones.js"></script>
+</body>
+</html>

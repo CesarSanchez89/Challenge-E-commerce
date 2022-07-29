@@ -1,0 +1,196 @@
+{
+  "perfil": [
+    {
+      "imagen": "C:\\fakepath\\starwars1.png",
+      "categoria": "Star Wars",
+      "nombre": "Taza Stormtrooper",
+      "precio": "60",
+      "descripcion": "Taza de color blanco para tomar bebidas calientes, en especial un buen café a la hora de la oficina",
+      "id": "3683c9ec-6b45-446e-9609-ba6beb76ffcb"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars2.png",
+      "categoria": "Star Wars",
+      "nombre": "Lego Darth Vader",
+      "precio": "60",
+      "descripcion": "Rostro de Darth Vader armable coleccionable",
+      "id": "12b1af7a-06e5-42ba-b941-464f2907f25b"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars3.png",
+      "categoria": "Star Wars",
+      "nombre": "Yoda Toy",
+      "precio": "60",
+      "descripcion": "Juguete de la Guerra de las Galaxias coleccionable",
+      "id": "9427a477-f29c-464b-b61b-2ade94172f81"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars4.png",
+      "categoria": "Star Wars",
+      "nombre": "Stormtrooper Toy",
+      "precio": "60",
+      "descripcion": "Jueguete de la Guerra de las Galaxias coleccionable",
+      "id": "28e8a870-51ba-4506-9e83-1df10e0c070e"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars5.png",
+      "categoria": "Star Wars",
+      "nombre": "Baby Yoda Toy",
+      "precio": "60",
+      "descripcion": "Jueguete de la serie The Mandelorian coleccionable.",
+      "id": "a927697c-d381-46c8-908d-3aa00619b9ef"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars6.png",
+      "categoria": "Star Wars",
+      "nombre": "Kylo Ren Toy",
+      "precio": "60",
+      "descripcion": "Jueguete de la Guerra de las Galaxias coleccionable",
+      "id": "5dc7ae4d-a1d2-4959-9049-00ef5f792c8a"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas1.png",
+      "categoria": "Consola",
+      "nombre": "Control XBOX",
+      "precio": "60",
+      "descripcion": "Control para consola XBOX color blanco",
+      "id": "80a7be0f-588a-4229-83ff-9b4440229685"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas2.png",
+      "categoria": "Consola",
+      "nombre": "PS5",
+      "precio": "1500",
+      "descripcion": "PlayStation 5 color blanco incluye un control",
+      "id": "ca05dadb-3d5c-4909-9260-2eef729a528e"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas3.png",
+      "categoria": "Consola",
+      "nombre": "Nintendo",
+      "precio": "60",
+      "descripcion": "Nintendo con más de 100 juegos incorporados",
+      "id": "0d6dd234-dec3-480c-a8e1-a2e3f0ae0093"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas4.png",
+      "categoria": "Consola",
+      "nombre": "Nintendo Switch",
+      "precio": "400",
+      "descripcion": "Nintendo Switch Modelo Oled Neon",
+      "id": "1dcf1858-5386-4e8b-a2ba-b9e6e67e2463"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas5.png",
+      "categoria": "Consola",
+      "nombre": "XBOX serie X",
+      "precio": "1500",
+      "descripcion": "XBOX serie X 1 TB color negro",
+      "id": "2c840c55-385d-42a8-9298-de949fce1821"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas6.png",
+      "categoria": "Consola",
+      "nombre": "Game Boy",
+      "precio": "60",
+      "descripcion": "Game Boy Color incluye 3 juegos",
+      "id": "f6d00683-6861-4313-9711-2b7ee18bf72c"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos1.png",
+      "categoria": "Diversos",
+      "nombre": "Polo Atari",
+      "precio": "25",
+      "descripcion": "Polo con logo de Atari color blanco",
+      "id": "2ac44ea5-ab97-4065-aaeb-afa2cbee61c9"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos2.png",
+      "categoria": "Diversos",
+      "nombre": "Polo Nintendo",
+      "precio": "25",
+      "descripcion": "Polo con logo nintendo color plomo",
+      "id": "2356acca-6486-46a1-96c4-a4d9d04b6e9e"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos3.png",
+      "categoria": "Diversos",
+      "nombre": "Sonic Toy",
+      "precio": "30",
+      "descripcion": "Juguete coleccionable de Sonic",
+      "id": "10d9a0f4-c470-45af-b6cc-1fa598ec9af2"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos4.png",
+      "categoria": "Diversos",
+      "nombre": "Radio Vintage",
+      "precio": "50",
+      "descripcion": "Radio despertador vintage color rosa",
+      "id": "c9813931-be71-49d2-9413-b733d03e6ef3"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos5.png",
+      "categoria": "Diversos",
+      "nombre": "Oculus Quest 2",
+      "precio": "600",
+      "descripcion": "Gafas de realidad virtual color blanco",
+      "id": "e62a5db8-aa54-478a-879c-8b9b341c97e8"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos6.png",
+      "categoria": "Diversos",
+      "nombre": "Pikachu Peluche",
+      "precio": "45",
+      "descripcion": "Peluche modelo Pikachu Pokemón",
+      "id": "54219f94-f40f-4113-9132-5e624f02ee24"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars7.png",
+      "categoria": "Star Wars",
+      "nombre": "Boba Fett Toy",
+      "precio": "45",
+      "descripcion": "Jueguete de Boba Fett coleccionable de la guerra de las galaxias",
+      "id": "1c93c70a-1732-49a6-8c24-5a2ce30fe278"
+    },
+    {
+      "imagen": "C:\\fakepath\\starwars8.png",
+      "categoria": "Star Wars",
+      "nombre": "Lego AT-AT",
+      "precio": "1200",
+      "descripcion": "Juguete armable de la Guerra de Las Galaxias - El Imperio Contrataca",
+      "id": "e35ba0a4-0bf2-4854-b17e-850f84c2f23b"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas7.png",
+      "categoria": "Consola",
+      "nombre": "Control PS4 Blue",
+      "precio": "40",
+      "descripcion": "Control para PS4 color azul",
+      "id": "ac47b9a7-c224-47b8-842c-0288a792f5c9"
+    },
+    {
+      "imagen": "C:\\fakepath\\consolas8.png",
+      "categoria": "Consola",
+      "nombre": "SNES",
+      "precio": "70",
+      "descripcion": "SNES con juegos incluidos, ya conocidos como Super Mario Bros y Donkey Kong",
+      "id": "ca5f1033-8ae8-4e00-ad04-0b67a1a7cee0"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos7.png",
+      "categoria": "Diversos",
+      "nombre": "Thanos Toy",
+      "precio": "70",
+      "descripcion": "Juguete de Thanos coleccionable de los Vengadores",
+      "id": "fbb070f7-2525-4fe2-9971-495291bbb54c"
+    },
+    {
+      "imagen": "C:\\fakepath\\diversos8.png",
+      "categoria": "Diversos",
+      "nombre": "Taza Batman",
+      "precio": "20",
+      "descripcion": "Taza del Logo de Batman color blanco",
+      "id": "b6c1e221-82df-461a-87de-e8fcf1c68fbe"
+    }
+  ]
+}

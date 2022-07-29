@@ -1,0 +1,1253 @@
+body{
+    background: #FFFFFF;
+}
+/*menu*/
+section.menu {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    margin: 0 5rem 0 5rem;
+    
+}
+
+section.menu header.menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+section.menu input.input__header{
+    background: #F5F5F5;
+    border-radius: 20px;
+    width: 250px;
+    height: 25px;
+    padding: 8px 16px;
+    margin: 0 0 0 2rem;
+    border-style: solid;
+}
+
+section.menu header.menu__header img.find{
+    position: relative;
+    left: 310px;
+}
+
+section.menu button.boton__header{
+    background: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*banner*/
+
+section.banner{
+    background-image:url(./assets/funkosuperman.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1270px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+}
+
+section.banner div.banner__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1136px;
+    height: 170px;
+}
+
+section.banner div.banner__about h2.banner__promocional{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 61px;
+    color: #021630;
+}
+
+section.banner div.banner__about h3.banner__descuento{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    color: #111111;
+}
+
+section.banner div.banner__about a{
+    text-decoration: none;
+}
+
+section.banner div.banner__about span.banner__span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #2A7AE4;;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+/*products*/
+
+section.products{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F5F5F5;
+    width: 1335px;
+}
+
+section.products div.products__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1250px;
+    height: 38px;
+    margin: 4rem 2.5rem 1rem 2.5rem;
+}
+
+section.products div.products__head h2.products__head__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+
+}
+
+section.products div.products__head button.products__head__boton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background: #F5F5F5;
+    border: none;
+}
+
+section.products div.products__store__all{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+section.products div.products__store__all div:nth-child(n+7){
+    display:none;
+}
+
+section.products ul.products__store__list{
+    list-style: none;
+}
+
+section.products ul li.products__store__item__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+section.products ul li.products__store__item__price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+section.products ul.products__store__list a{
+    text-decoration: none;
+}
+
+section.products ul li.products__store__item__link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+/*footer*/
+
+footer.data__company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+footer.data__company div.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 64px;
+    gap: 115px;
+    background: #EAF2FD;
+    width: 1205px;
+}
+
+footer.data__company div.foot ul.foot__box__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    list-style: none;
+}
+
+footer.data__company div.foot ul li.foot__box__item{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+footer.data__company div.foot form.foot__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+footer.data__company div.foot form p.foot__form__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+footer.data__company div.foot form input.foot__form__name{
+    width: 500px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer.data__company div.foot form input.foot__form__message{
+    width: 500px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer.data__company div.foot form button.foot__form__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 150px;
+    height: 51px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: #2A7AE4;
+}
+
+footer.data__company div.rodapie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    background: #FFFFFF;
+    width: 1200px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}
+
+.formcontacto__form--invalid .foot__form__name{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .foot__form__message{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .foot__form__name::placeholder{
+    color: red;  
+}
+
+.formcontacto__form--invalid .foot__form__message::placeholder{
+    color: red;  
+}
+
+.input-message-error {
+    display: none;
+}
+
+.formcontacto__form--invalid .input-message-error{
+    color: red;
+    display: block;
+    margin-top: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+
+/*Page Home-login*/
+
+section.login div.login__user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 8px;
+    background: #F5F5F5;
+}
+
+section.login div.login__user p.login__user__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+}
+
+section.login div.login__user input.login__user__email{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 50px;
+    border-style: solid;
+}
+
+section.login div.login__user input.login__user__password{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 50px;
+    border-style: solid;
+}
+
+.formcontacto__form--invalid .login__user__email{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .login__user__password{
+    border: 1px solid rgb(228, 53, 53);
+    border-radius: 7px; 
+}
+
+.formcontacto__form--invalid .login__user__email::placeholder{
+    color: red;  
+}
+
+.formcontacto__form--invalid .login__user__password::placeholder{
+    color: red;  
+}
+
+section.login div.login__user button.login__user__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 1rem;
+    width: 423px;
+    height: 50px;
+    border: none;
+}
+
+/*Page agregar-producto*/
+
+section.menu button.boton__header__menu{
+    background: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+section.login__form form.login__user__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 8px;
+    background: #F5F5F5;
+}
+
+section.login__form form.login__user__form p.login__user__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #464646;
+    width: 425px;
+}
+
+section.login__form form.login__user__form div.login__user__url{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 55px;
+    border-style: none;
+}
+
+section.login__form form.login__user__form div.login__user__url label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+section.login__form form.login__user__form input.login__user__url__input{
+    width: 423px;
+    height: 33px;
+    border: 0;
+    outline: none;
+}
+
+section.login__form form.login__user__form div.login__user__categoria{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 55px;
+    border-style: none;
+}
+
+section.login__form form.login__user__form div.login__user__categoria label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+section.login__form form.login__user__form input.login__user__categoria__input{
+    width: 418px;
+    height: 30px;
+    border: 0;
+    outline: none;
+}
+
+section.login__form form.login__user__form div.login__user__name{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 55px;
+    border-style: none;
+}
+
+section.login__form form.login__user__form div.login__user__name label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+section.login__form form.login__user__form input.login__user__name__input{
+    width: 418px;
+    height: 30px;
+    border: 0;
+    outline: none;  
+}
+
+section.login__form form.login__user__form div.login__user__price{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 55px;
+    border-style: none;
+}
+
+section.login__form form.login__user__form div.login__user__price label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+section.login__form form.login__user__form input.login__user__price__input{
+    width: 418px;
+    height: 30px;
+    border: 0;
+    outline: none;  
+}
+
+section.login__form form.login__user__form div.login__user__description{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 423px;
+    height: 55px;
+    border-style: none;
+}
+
+section.login__form form.login__user__form div.login__user__description label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+section.login__form form.login__user__form input.login__user__description__input{
+    width: 418px;
+    height: 30px;
+    border: 0;
+    outline: none;  
+}
+
+section.login__form form.login__user__form button.login__user__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 423px;
+    height: 51px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/*page productos*/
+
+section.products div.products__head a{
+    text-decoration: none;
+}
+
+section.products div.products__store__showall{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+section.products div ul.products__store__list img.icono__delete__st{
+    position: relative;
+    left: 120px;
+    top:30px
+}
+
+section.products div ul.products__store__list img.icono__pencil__st{
+    position: relative;
+    left: 130px;
+    top:30px
+}
+
+.product--invalid{
+    display: none;
+}
+
+/*one-product*/
+
+section.product{
+    background: #F5F5F5;
+}
+
+section.product div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin: 0;
+}
+
+section.product div div.product__store__img{
+    margin: 1rem 0.5rem 0 10rem;    
+}
+
+section.product div div.product__store__img img{
+    width: 270px;
+    height: 290px;
+}
+
+section.product div.products__same div:nth-child(n+6){
+    display: none;
+}
+
+section.product div ul.product__store__list{
+    list-style: none;
+}
+
+section.product ul li.product__store__item__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61px;
+    color: #464646;
+}
+
+section.product ul li.product__store__item__price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+section.product ul li.product__store__item__descripcion{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+section.product h2.products__head__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin: 4rem 0 1rem 4.5rem;
+}
+
+section.product div.products__same ul.products__store__list{
+    list-style: none;
+    margin: 0 0 4rem 2rem;
+}
+
+section.product div.products__same ul li.products__store__item__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+section.product div.products__same ul li.products__store__item__price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+
+section.product div.products__same ul.products__store__list a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+
+/*Modal*/
+
+#modal::backdrop {
+    background-color: rgba(0,0,0,.55);
+    
+}
+
+#modal{
+    width: 30ch;
+    height: 20ch;
+    text-align:center;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:824px){
+
+    /*menu*/
+
+    section.menu {
+       margin: 0 0 0.5rem 0.5rem;
+    }
+    section.menu button.boton__header{
+        margin: 0 2.5rem 0 0;
+    }
+
+    /*banner*/
+
+    section.banner{
+        width: 700px;
+        height: 180px;
+        padding: 55px;
+    }
+
+    section.banner div.banner__about{
+        width: 700px;
+    }
+
+    section.banner div.banner__about h2.banner__promocional{
+        font-size: 52px;
+        line-height: 61px;
+        margin: 1rem;
+
+    }
+
+    section.banner div.banner__about h3.banner__descuento{
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0.5rem;
+    }
+
+    section.banner div.banner__about span.banner__span{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /*products*/
+
+    section.products{
+        width: 810px;
+        padding: 1.5rem 0;
+    }
+    
+    section.products div.products__head{
+        padding: 0px;
+        gap: 50px;
+        margin: 0.5rem 0 0rem 1rem;
+        width: 710px;
+    }
+    
+    section.products div.products__head h2.products__head__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    section.products div.products__head button.products__head__boton{
+        font-size: 16px;
+        line-height: 19px;
+    }
+   
+    section.products div.products__store__all div:nth-child(n+5){
+        display:none;
+    }
+    
+    section.products div ul.products__store__list{
+        padding: 0.2rem 0.8rem;
+    }
+
+    /*footer*/
+
+    footer.data__company{
+        margin: 0.5rem 0.1rem;
+    }
+    
+    footer.data__company div.foot{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 630px;
+        height: 364px;
+        gap: 10px;
+    }
+
+    footer.data__company div.foot div.foot__logo{
+        width: 254px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer.data__company div.foot ul.foot__box__list{
+        width: 254px;
+    }
+
+    footer.data__company div.foot form.foot__form{
+        height: 350px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__name{
+        width: 320px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__message{
+        width: 320px;
+    }
+    
+    footer.data__company div.rodapie{
+        width: 700px;
+    }
+
+    /*Page Home-login*/
+
+    section.login div.login__user p.login__user__title{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+        
+    section.login div.login__user input.login__user__email{
+        width: 275px;
+        height: 41px;
+    }
+        
+    section.login div.login__user input.login__user__password{
+        width: 275px;
+        height: 41px;
+    }
+        
+    section.login div.login__user #btnEnter{
+        width: 109px;
+    }
+
+    /*Page agregar-producto*/
+
+    section.login__form{
+        width: 810px;
+    }
+
+    section.login__form form.login__user__form p.login__user__title{
+        font-size: 22px;
+        line-height: 26px;
+        width: 705px;
+    }
+    
+    section.login__form form.login__user__form div.login__user__url{
+        width: 704px;
+        height: 56px;
+    }
+    
+    section.login__form form.login__user__form div.login__user__categoria{
+        width: 704px;
+        height: 56px;
+    }
+    
+    section.login__form form.login__user__form div.login__user__name{
+        width: 704px;
+        height: 56px;
+    }
+    
+    section.login__form form.login__user__form div.login__user__price{
+        width: 704px;
+        height: 56px;
+    }
+    
+    section.login__form form.login__user__form div.login__user__description{
+        width: 704px;
+        height: 56px;
+    }
+    
+    section.login__form form.login__user__form button.login__user__boton{
+        font-size: 16px;
+        line-height: 19px;
+        width: 704px;
+        height: 51px;
+    }
+
+    footer.data__company div.foot{
+        width: 680px;
+    }
+
+    /*page one-product*/
+
+    section.product{
+        width: 800px;
+    }
+
+    section.product div div.product__store__img{
+        margin: 1rem 0.5rem 0 1rem;    
+    }
+    
+    section.product div div.product__store__img img{
+        width: 254px;
+        height: 200px;
+    }
+
+    section.product h2.products__head__title{
+        margin: 3rem 1rem 1rem 1rem;
+    }
+
+    section.product div.products__same{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    section.product div.products__same div ul.products__store__list{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    section.product div.products__same div:nth-child(n+5){
+        display: none;
+    }
+
+    section.product ul li.products__store__item__img img{
+        width: 162px;
+        height: 174px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+    /*menu*/
+    section.menu {
+        margin: 0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+    }
+    
+    section.menu input.input__header{
+        display: none;
+    }
+
+    section.menu button.boton__header{
+        margin-right: 2.5rem;
+        width: 110px;
+        height: 45px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    section.menu header.menu__header img.find{
+        left: 170px;
+    }
+
+    /*banner*/
+
+    section.banner{
+
+        width: 360px;
+        height: 90px;
+        padding: 20px;
+        margin: 0.1rem;
+        background-size: 380px;
+    }
+
+    section.banner div.banner__about{
+        width: 360px;
+        height: 190px;
+        margin: 0;
+        padding: 0; 
+    }
+
+    section.banner div.banner__about h2.banner__promocional{
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    section.banner div.banner__about h3.banner__descuento{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    section.banner div.banner__about span.banner__span{
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /*products*/
+
+    section.products{
+        width: 385px;
+    }
+    
+    section.products div.products__head{
+        padding: 0px;
+        gap: 10px;
+        margin: 0 0 0rem 0.5rem;
+        width: 310px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    section.products div.products__head h2.products__head__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    section.products div.products__head button.products__head__boton{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    section.products div.products__store__all div:nth-child(n+5){
+        display:none;
+    }
+    
+    section.products div ul.products__store__list{
+        padding: 0.2rem 0.5rem;
+    }
+
+    /*footer*/
+
+    footer.data__company{
+        margin: 0.1rem 0.1rem;
+    }
+    
+    footer.data__company div.foot{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 260px;
+        height: 710px;
+        gap: 25px;
+    }
+
+    footer.data__company div.foot div.foot__logo{
+        width: 250px;
+        text-align: center;
+    }
+    
+    footer.data__company div.foot ul.foot__box__list{
+        align-items: center;
+        width: 250px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__name{
+        width: 280px;
+    }
+    
+    footer.data__company div.foot form input.foot__form__message{
+        width: 280px;
+    }
+    
+    footer.data__company div.rodapie{
+        width: 300px;
+    }
+
+    /*Page Home-login*/
+    section.login {
+        width: 390px;
+    }
+
+    section.login div.login__user p.login__user__title{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    section.login div.login__user input.login__user__email{
+        width: 275px;
+        height: 41px;
+    }
+
+    section.login div.login__user input.login__user__password{
+        width: 275px;
+        height: 41px;
+    }
+
+    section.login div.login__user #btnEnter{
+        width: 109px;
+    }
+
+    /*Page agregar-producto*/
+
+    section.menu button.boton__header__menu{
+        width: 150px;
+        margin: 0 2rem 0 0;
+    }
+
+    section.login__form{
+        width:390px;
+    }
+
+    section.login__form form.login__user__form p.login__user__title{
+        font-size: 22px;
+        line-height: 26px;
+        width: 330px;
+        text-align: center;
+    }
+
+    section.login__form form.login__user__form div.login__user__url{
+        width: 328px;
+        height: 56px;
+    }
+
+    section.login__form form.login__user__form input.login__user__url__input{
+        width: 324px;
+    }
+
+    section.login__form form.login__user__form div.login__user__categoria{
+        width: 328px;
+        height: 56px;
+    }
+
+    section.login__form form.login__user__form input.login__user__categoria__input{
+        width: 324px;
+    }
+
+    section.login__form form.login__user__form div.login__user__name{
+        width: 328px;
+        height: 56px;
+    }
+
+    section.login__form form.login__user__form input.login__user__name__input{
+        width: 324px;
+    }
+
+    section.login__form form.login__user__form div.login__user__price{
+        width: 328px;
+        height: 56px;
+    }
+
+    section.login__form form.login__user__form input.login__user__price__input{
+        width: 324px;
+    }
+
+    section.login__form form.login__user__form div.login__user__description{
+        width: 328px;
+        height: 56px;
+    }
+
+    section.login__form form.login__user__form input.login__user__description__input{
+        width: 324px;
+    }
+
+    section.login__form form.login__user__form button.login__user__boton{
+        font-size: 16px;
+        line-height: 19px;
+        width: 328px;
+        height: 51px;
+    }
+  
+    /*Page one-producto*/
+
+    section.product{
+        width: 384px;
+    }
+
+    section.product div{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    section.product div.product__store__data ul.product__store__list{
+        padding: 1rem;
+    }
+
+    section.product ul li.product__store__item__title{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    section.product ul li.product__store__item__price{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    section.product ul li.product__store__item__descripcion{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: justify;
+    }
+    
+    section.product div.products__same{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    section.product div.products__same div:nth-child(n+5){
+        display: none;
+    }
+
+    section.product h2.products__head__title{
+        margin: 1rem;
+    }
+
+    section.product ul.products__store__list{
+        margin: 0;
+        padding: 0;
+    }
+
+    section.product ul li.products__store__item__img img{
+        width: 150px;
+        height: 174px;
+    }
+}
